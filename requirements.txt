@@ -1,0 +1,18 @@
+fastapi>=0.115
+uvicorn>=0.30
+apscheduler>=3.10
+pillow>=10.0
+google-genai>=1.0
+requests>=2.31
+python-multipart>=0.0.9
+python-dotenv>=1.0
+keyring>=24.0
+
+# Platform SDKs (imported lazily by app/sync/*; already installed globally on
+# this machine — uncomment when setting up a fresh environment):
+# facebook-business
+# google-ads
+# bingads
+# google-analytics-data
+# google-api-python-client   (gsc_sync)
+# google-auth-oauthlib       (tools/reauth_gbp.py; gbp_sync uses google-auth)
